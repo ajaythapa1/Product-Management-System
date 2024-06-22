@@ -1,0 +1,102 @@
+﻿@model Ajay.PMS.Models.Product
+
+@{
+    ViewData["Title"] = "Product Management";
+    ViewData["ContentBoxTitle"] = Model.Id > 0 ? "Update Product" : "Add Product";
+}
+
+<h1>@ViewData["ContentBoxTitle"]</h1>
+
+<form asp-action="AddEdit" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label asp-for="ProductName" class="control-label">Product Name</label>
+                <input asp-for="ProductName" class="form-control" />
+                <span class="text-danger" asp-validation-for="ProductName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Manufacturer" class="control-label">Manufacturer</label>
+                <input asp-for="Manufacturer" class="form-control" />
+                <span class="text-danger" asp-validation-for="Manufacturer"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label">Category</label>
+                <select asp-for="CategoryId" class="form-control" asp-items="@(new SelectList(ViewBag.CategoryInfos, "Id", "CategoryName"))">
+                    <option value="" selected disabled>-Choose-</option>
+                </select>
+                <span class="text-danger" asp-validation-for="CategoryId"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rate" class="control-label">Rate</label>
+                <input asp-for="Rate" class="form-control" />
+                <span class="text-danger" asp-validation-for="Rate"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductionDate" class="control-label">Production Date</label>
+                <input type="date" asp-for="ProductionDate" class="form-control" />
+                <span class="text-danger" asp-validation-for="ProductionDate"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExpiryDate" class="control-label">Expiry Date</label>
+                <input type="date" asp-for="ExpiryDate" class="form-control" />
+                <span class="text-danger" asp-validation-for="ExpiryDate"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BatchNo" class="control-label">Batch Number</label>
+                <input asp-for="BatchNo" class="form-control" />
+                <span class="text-danger" asp-validation-for="BatchNo"></span>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" asp-for="IsActive" />
+                <label class="form-check-label" asp-for="IsActive">Is Active</label>
+                <span class="text-danger" asp-validation-for="IsActive"></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="image-uploaded">
+                @if (!string.IsNullOrEmpty(Model?.ProductUrl))
+                {
+                    <img src="/@Model.ProductUrl" id="userPhotos" class="img-thumbnail align-center" style="height:200px;width:180px;" onerror="this.src='../Images/photo.jpg';" />
+                }
+                else
+                {
+                    <img id="userPhoto" src="~/Images/photo.jpg" class="img-thumbnail align-center" style="height:200px;width:180px;" />
+                }
+            </div>
+            <div class="input-group input-file mt-1">
+                <label class="input-group-btn">
+                    <span class="btn btn-primary">
+                        Upload Photo
+                        <input asp-for="ProductFile" class="form-control" type="file" style="display: none;" onchange="readURL(this)" />
+                    </span>
+                </label>
+                <span class="text-danger" asp-validation-for="ProductFile"></span>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary mt-2" type="submit">Submit</button>
+    <a class="btn btn-primary mt-2" asp-action="Index" style="background-color:dimgrey">Back</a>
+</form>
+
+
+<br />
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var imgId = '@Model.Id' > 0 && '@Model.ProductUrl' ? '#userPhotos' : '#userPhoto';
+                    $(imgId).attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+}

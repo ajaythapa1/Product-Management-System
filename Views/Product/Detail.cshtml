@@ -1,0 +1,84 @@
+﻿
+<style>
+    .product-details {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 10px;
+    }
+
+    .detail-item {
+        display: contents;
+    }
+
+        .detail-item strong {
+            text-align: right;
+            margin-right: 10px;
+        }
+
+</style>
+
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4 text-center"><strong>Product Details</strong></h2>
+            <div class="card p-3">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="product-details">
+                            <div class="detail-item">
+                                <strong>Product Name:</strong>
+                                <span>@Model.ProductName</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Manufacturer:</strong>
+                                <span>@Model.Manufacturer</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Category:</strong>
+                                <span>@Model.Category.CategoryName</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Batch No:</strong>
+                                <span>@Model.BatchNo</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Rate :</strong>
+                                <span>Rs.@Model.Rate</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Production Date:</strong>
+                                <span>@Model.ProductionDate.ToString("dd/MM/yyyy")</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Expiry Date:</strong>
+                                <span>@Model.ExpiryDate.ToString("dd/MM/yyyy")</span>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Available:</strong>
+                                <span>@(@Model.IsActive ? "Yes" : "No")</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h4><strong>Photo</strong></h4>
+                        @if (!string.IsNullOrEmpty(Model.ProductUrl))
+                        {
+                            <img src="/@Model.ProductUrl" alt="Product Image" class="img-fluid rounded shadow-sm" style="max-height: 150px;">
+                        }
+                        else
+                        {
+                            <img src="~/Images/photo.jpg" alt="Default Image" class="img-fluid rounded shadow-sm" style="max-height: 150px;">
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br />
+
+<a class="btn btn-primary" asp-action="Index" style="background-color:dimgrey">Back</a>

@@ -1,0 +1,46 @@
+﻿@model Ajay.PMS.Models.Category
+
+<form method="post" asp-action="AddEdit">
+
+<div class="row">
+        <div class="container mt-5">  
+                <div class="form-row">
+                   <div class="row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="CategoryName">CategoryName</label>
+                        <input asp-for="CategoryName"  class="form-control"  placeholder="CategoryName">
+                        <span class="text-danger" asp-validation-for="CategoryName"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="Description">Description</label>
+                        <input asp-for="Description"  class="form-control" placeholder="Description">
+                        <span class="text-danger" asp-validation-for="Description"></span>
+                    </div>
+                   </div>
+               </div>
+        </div>
+</div>
+
+
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="IsActive" asp-for="IsActive">
+                <label class="form-check-label" asp-for="IsActive">
+                    <span class="checked1"></span>
+                    <span class="terms">Is Active</span>
+                </label>
+                <span asp-validation-for="IsActive" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn mt-2 btn-primary " type="submit">Submit</button>
+    <a class="btn btn-primary mt-2" asp-action="Index" style="background-color:dimgrey">Back</a>
+
+
+</form>
+
+<br />
+

@@ -1,0 +1,150 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@model IEnumerable<Ajay.PMS.Models.Category>//For using Model IEnumerabel should be used
+
+ @inject SignInManager<UserLogin> SignInManager
+@inject UserManager<UserLogin> UserManager
+
+@{
+    ViewData["Title"] = "Category";
+}
+
+
+@* <div class="row">
+    <div class="col-6 col-md-6">
+
+        <h2 class="btn btn-primary" onclick="showmodal()">Add</h2>
+    </div>
+</div> *@
+
+@if(SignInManager.IsSignedIn(User) && User.IsInRole("ADMIN")){
+   
+      <div class="row mb-3">
+      <div class="col-md-12 d-flex justify-content-end align-items-start">
+        <a class="btn btn-primary" asp-action="AddEdit">Add</a>
+      </div>
+     </div>
+    
+}
+
+
+<div class="row">
+      
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th> S.N  </th>
+                <th>  Category Name </th>
+                <th> Description  </th>
+                <th> Is Active  </th>
+                @if (SignInManager.IsSignedIn(User) && User.IsInRole("ADMIN"))
+                {
+                    <th> Action  </th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int count = 1;
+            }
+
+            @foreach(var items in Model)
+            {
+                <tr>
+                    <td> @count </td>
+                    <td>@items.CategoryName </td>
+                    <td> @items.Description </td>
+                    <td> @items.IsActive </td>
+                    @if (SignInManager.IsSignedIn(User) && User.IsInRole("ADMIN"))
+                    {
+                        <td> 
+                            <a class="btn btn-primary btn-sm" asp-action="AddEdit" asp-route-id="@items.Id">Edit</a>
+                            <a class="btn btn-primary btn-sm" style="background-color:red" asp-action="Delete" asp-route-id="@items.Id">Delete</a>                    
+                        </td>
+                    }
+                </tr>
+                count = count + 1;
+            }
+        </tbody>
+
+    </table>
+
+
+</div>
+
+
+
+
+@* <div id="cancelmodel" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="get" asp-action="#">
+
+                    <div class="row">
+                        <div class="container mt-5">
+                            <div class="form-row">
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <label for="CategoryName">CategoryName</label>
+                                        <input type="CategoryName" class="form-control" id="categoryname" placeholder="CategoryName">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="Description">Description</label>
+                                        <input type="Description" class="form-control" id="description" placeholder="Description">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="isactive" asp-for="IsActive">
+                                <label class="form-check-label" for="IsActive">
+                                    <span class="checked1"></span>
+                                    <span class="terms">Is Active</span>
+                                </label>
+                                <span asp-validation-for="IsActive" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a id="savebtn" class="btn btn-primary" asp-action="Index">Save</a>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+
+@* @section Scripts {
+
+    <script>
+        function showmodal(){
+
+            $("#cancelmodel").modal('show');
+         
+        }
+        $('#savebtn').click function() {
+            var obj = { $('#categoryname').val(),
+                $('#description').val(),
+                $('#isactive').val()
+        };
+         
+        
+
+        }
+
+    </script>
+} *@

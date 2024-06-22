@@ -1,0 +1,148 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<Ajay.PMS.Models.Product>
+
+
+@inject SignInManager<UserLogin> SignInManager
+@inject UserManager<UserLogin> UserManager
+
+@{
+    ViewData["Title"] = "Product";
+}
+
+
+@{
+    var productlist = new SelectList(Model, "Id", "ProductName");
+}
+<style>
+    #content{
+        width : 250px;
+       height : 50px
+    }
+
+    #backcontent{
+        margin:30px;
+        padding-bottom :unset;
+    }
+</style>
+
+
+
+
+    <div class="row mb-3"> 
+
+        <div class="col-md-4">
+                <form class="d-flex" asp-action="Index" asp-controller="Product" method="get">
+                    <input id="content" type="search" class="form-control" name="searchString" placeholder="Search by Product Name" />
+                    <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+        </div>
+        
+         <div class="col-md-4">
+            <a asp-action="Index" class="text-dark" id="backcontent">Back to List </a>
+
+        </div>
+        @if (SignInManager.IsSignedIn(User) && User.IsInRole("ADMIN"))
+        {
+
+            <div class="col-md-4 d-flex justify-content-end align-items-start">
+                <a class="btn btn-primary" asp-action="AddEdit">Add</a>
+        </div>
+        }
+     </div>
+
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <form class="d-flex align-items-center" asp-action="Index" asp-controller="Product">
+                <label for="productInfo" class="mr-2">Select Product</label><br />
+                <select id="productInfo" name="selectedProductId" style="width: 250px; height: 50px" class="form-control" asp-items="productlist">
+                    <option value="" selected disabled>Search Product</option>
+                </select>
+                <span class="text-danger"></span>
+                <button class="btn btn-dark ml-2" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</div> 
+
+  
+
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>S.N</th>
+                    <th>Product Name</th>
+                    <th>Category Name</th>
+                    <th>Rate</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody >
+                @{
+                    int count = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr id="productDetail">
+                        <td>@count</td>
+                        <td id="productname">@item.ProductName</td>
+                        <td id="categoryname">@item.Category.CategoryName</td>
+                        <td id="rate">@item.Rate</td>
+                        <td>
+                        @if (SignInManager.IsSignedIn(User) && User.IsInRole("ADMIN"))
+                        {
+                            <a class="btn btn-primary btn-sm" asp-action="AddEdit" asp-route-id="@item.Id">Edit</a>
+                            <a class="btn btn-secondary btn-sm" style="background-color:red" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        }
+                        <a class="btn btn-secondary btn-sm" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+
+
+                        </td>
+                    </tr>
+                    count++;
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+ @section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+   @*       // $('#productInfo').change(function () {
+        //     ChangeProduct();
+        // });
+
+        // function ChangeProduct() {
+        //     var productinfo = $('#productInfo').val();
+
+        //     $.ajax({
+        //         url: 'api/Product/getproduct',
+        //         data: { productinfo: productinfo },
+        //         method: 'POST',
+        //     }).done(function (data) {
+        //         console.log(data);
+
+        //         getempty();
+        //         $('#productname').text(data.productinfos.productName);
+        //         $('#categoryname').text(data.productinfos.categoryName);
+        //         $('#rate').text(data.productinfos.rate);
+        //     }).fail(function () {
+        //         console.log('Failed to fetch product details.');
+        //     });
+        // }
+
+        // function getempty(){
+        //     $('productDetail').empty();
+        // }*@
+
+              $(document).ready(function () {
+                  $('#productInfo').select2({
+                      maximumInputLength: 15,
+                     placeholder: "Search Product"
+                  });
+              }); 
+   </script>
+} 

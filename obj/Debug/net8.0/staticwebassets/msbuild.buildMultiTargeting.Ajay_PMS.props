@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ajay_PMS.props" />
+</Project>

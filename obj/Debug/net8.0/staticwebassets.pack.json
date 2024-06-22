@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Ajay.PMS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Ajay.PMS.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\Images\\photo.jpg",
+      "PackagePath": "staticwebassets\\Images\\photo.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\Images\\user.jpg",
+      "PackagePath": "staticwebassets\\Images\\user.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\2b250654-0369-4822-8bb4-177142d87c34_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\2b250654-0369-4822-8bb4-177142d87c34_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\4c1c800b-e42c-4dfe-89cc-d07566691364_Brocouli.jpeg",
+      "PackagePath": "staticwebassets\\ProductImage\\4c1c800b-e42c-4dfe-89cc-d07566691364_Brocouli.jpeg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\509316dd-a174-45a7-bee8-8ba6d4cd5c11_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\509316dd-a174-45a7-bee8-8ba6d4cd5c11_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\58374496-08d6-45a6-a955-78ad0d8969d4_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\58374496-08d6-45a6-a955-78ad0d8969d4_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\5da07f4a-37e0-4af1-a8dc-8caa34941f1d_360_F_537046123_s8JVn2NrClPQDOryhSm8jonYZPfIzPRX.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\5da07f4a-37e0-4af1-a8dc-8caa34941f1d_360_F_537046123_s8JVn2NrClPQDOryhSm8jonYZPfIzPRX.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\5eb0a1a8-7699-4543-9758-5e1c029d0ef2_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\5eb0a1a8-7699-4543-9758-5e1c029d0ef2_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\635a48e1-3557-42ee-95ac-2f3fe02c9148_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\635a48e1-3557-42ee-95ac-2f3fe02c9148_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\726a1298-47af-4ef0-814c-78c09a73463b_cucumber.jpeg",
+      "PackagePath": "staticwebassets\\ProductImage\\726a1298-47af-4ef0-814c-78c09a73463b_cucumber.jpeg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\78c7f685-b26f-4837-bedb-92c60b6d749b_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\78c7f685-b26f-4837-bedb-92c60b6d749b_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\8ab8f44f-dce6-4b8b-9d4e-687414106580_Yong user.jpeg",
+      "PackagePath": "staticwebassets\\ProductImage\\8ab8f44f-dce6-4b8b-9d4e-687414106580_Yong user.jpeg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\aece40e5-0979-4d96-a08c-de4a8ec97e5d_Yong user.jpeg",
+      "PackagePath": "staticwebassets\\ProductImage\\aece40e5-0979-4d96-a08c-de4a8ec97e5d_Yong user.jpeg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\b050eb71-0de8-4092-902f-f60077e67fe1_download.jpeg",
+      "PackagePath": "staticwebassets\\ProductImage\\b050eb71-0de8-4092-902f-f60077e67fe1_download.jpeg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\c4706e62-6589-4fe4-a8bb-b548e0bfd1ef_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\c4706e62-6589-4fe4-a8bb-b548e0bfd1ef_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\ca627a5b-07d3-43fe-9ba0-80ff4258e3f9_iphone15pro.png",
+      "PackagePath": "staticwebassets\\ProductImage\\ca627a5b-07d3-43fe-9ba0-80ff4258e3f9_iphone15pro.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\d2b4a7dd-42ff-4c5e-819f-6be39483b5e1_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\d2b4a7dd-42ff-4c5e-819f-6be39483b5e1_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\dcbe44c7-52a6-4cde-b60e-a9fd22597508_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\dcbe44c7-52a6-4cde-b60e-a9fd22597508_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\df9f6165-c27d-4005-a3d6-6ae3b5d56970_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\df9f6165-c27d-4005-a3d6-6ae3b5d56970_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\e87eaa1b-8d71-4fdd-9dad-a0e1d23f0614_user.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\e87eaa1b-8d71-4fdd-9dad-a0e1d23f0614_user.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\fb183035-aad5-45f5-a82d-93a915cb5b2c_246074928_592981018819817_1724629705138372680_n.png",
+      "PackagePath": "staticwebassets\\ProductImage\\fb183035-aad5-45f5-a82d-93a915cb5b2c_246074928_592981018819817_1724629705138372680_n.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\ProductImage\\fd365b86-9e66-4671-aaa6-48191f122108_Ims2.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\fd365b86-9e66-4671-aaa6-48191f122108_Ims2.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\favicon-10112509.png",
+      "PackagePath": "staticwebassets\\favicon-10112509.png"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net Practices\\Ajay_PMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ajay.PMS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Ajay.PMS.props",
+      "PackagePath": "build\\Ajay.PMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Ajay.PMS.props",
+      "PackagePath": "buildMultiTargeting\\Ajay.PMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Ajay.PMS.props",
+      "PackagePath": "buildTransitive\\Ajay.PMS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
